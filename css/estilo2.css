@@ -553,22 +553,9 @@ nav .wrapper {
   transition: all 300ms ease-in-out;
 }
 
-.promotion-content a {
-  transition: all 300ms ease-in-out;
-  font-size: 1.4rem;
-}
 
 .promotion-content a:hover {
   color: var(--primary);
-}
-
-.promotion-item:hover .promotion-content h3 {
-  background-color: var(--white);
-  color: var(--black);
-}
-
-.promotion-item:hover img {
-  transform: scale(1.2);
 }
 
 .promotion-item::after {
@@ -590,26 +577,9 @@ nav .wrapper {
   opacity: 1;
 }
 
-@media only screen and (max-width: 1200px) {
-  .promotion-content h3 {
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 5rem;
-    padding: 0.7rem 1.4rem;
-    font-size: 1.6rem;
-  }
-}
 
-@media only screen and (max-width: 996px) {
-  .promotion-layout {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  .promotion-layout {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 /* PRODUCTS */
 .section .product-layout {
