@@ -1,7 +1,6 @@
-/* Fonts */
+/* Fontes */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
-/* Basic Reset */
 *,
 *::before,
 *::after {
@@ -35,11 +34,7 @@ body {
   align-items: center;
 }
 
-/* 
-=================
-Header
-=================
-*/
+/* Header*/
 
 .top-nav {
   background-color: #29831b;
@@ -52,11 +47,8 @@ Header
   height: 4.5rem;
 }
 
-/* 
-=================
-Navigation
-=================
-*/
+/* Navigation */
+
 .navigation {
   height: 6rem;
   line-height: 6rem;
@@ -66,7 +58,7 @@ Navigation
   justify-content: space-between;
 }
 
-/* Icons */
+/* Icones */
 
 .icon {
   cursor: pointer;
@@ -90,6 +82,7 @@ Navigation
 }
 
 /* Footer */
+
 .footer {
   padding: 5.5rem 1rem;
   background-color: #29831b;
@@ -126,7 +119,8 @@ footer .row {
   font-weight: 300;
 }
 
-/* Login Form */
+/* Formulario Login/Registro */
+
 .login-form {
   padding: 5rem 0;
   max-width: 50rem;
