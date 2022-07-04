@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -22,7 +21,11 @@ body {
   font-weight: 400;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 600;
 }
 
@@ -575,10 +578,6 @@ nav .wrapper {
   padding: 0 1.6rem;
 }
 
-.product {
-  overflow: hidden;
-}
-
 .product .img-container {
   position: relative;
   cursor: pointer;
@@ -595,12 +594,6 @@ nav .wrapper {
   text-align: center;
 }
 
-.product .bottom a {
-  margin-bottom: 1rem;
-  font-weight: inherit;
-  font-size: 1.5rem;
-}
-
 .product .bottom a:hover {
   color: #29831b;
 }
@@ -610,34 +603,14 @@ nav .wrapper {
   font-size: 1.8rem;
 }
 
-.product .bottom .cancel {
-  font-size: 1.4rem;
-  color: #828282;
-  text-decoration: line-through;
-}
-
 .product .addCart {
   position: absolute;
   right: 0;
   bottom: 0.6rem;
   background-color: #fff;
-  border-radius: 50%;
-  padding: 1.3rem 1.6rem;
+  border-radius: 10%;
+  padding: 1.3rem 1.5rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
-  transition: all 300ms ease-in-out;
-}
-
-.product:hover .addCart {
-  border-radius: 1rem 0 0 0;
-}
-
-.product .addCart:hover {
-  background-color: #29831b;
-  color: #fff;
-}
-
-.product i {
-  transition: all 300ms ease-in-out;
 }
 
 .product .side-icons {
@@ -658,11 +631,6 @@ nav .wrapper {
   padding: 1rem 1.3rem;
   border-radius: 50%;
   transition: all 300ms ease-in-out;
-}
-
-.product .side-icons span:hover {
-  background-color: #29831b;
-  color: #fff;
 }
 
 .product:hover .side-icons {
@@ -694,7 +662,6 @@ nav .wrapper {
   line-height: 3rem;
 }
 
-
 .footer-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -711,17 +678,6 @@ nav .wrapper {
 
 .footer-center a:hover {
   color: #29831b;
-}
-
-
-.footer-center h3 {
-  font-size: 1.8rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
-}
-
-.footer .payment-methods {
-  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 998px) {
