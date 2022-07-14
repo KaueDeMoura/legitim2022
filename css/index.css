@@ -1,10 +1,4 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+
 
 html {
   box-sizing: border-box;
@@ -21,8 +15,9 @@ body {
 
 p{
   text-decoration: line-through;
-  color: #29831b;
+  color: #b61010;
   font-size: 1.8rem;
+  margin-top: 0;
 }
 
 h1,
@@ -59,7 +54,7 @@ nav {
   width: 100%;
   z-index: 999;
   background-color: #fff;
-  height: 6.5rem;
+  height: 8.5rem;
   line-height: 6.5rem;
 }
 
@@ -76,9 +71,8 @@ nav .wrapper {
 
 .nav-list a {
   color: #222;
-  font-size: 1.5rem;
   padding: 0.9rem 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   transition: all 300ms ease;
 }
 
@@ -172,6 +166,8 @@ nav .wrapper {
   font-weight: 700;
   border-radius: 50%;
 }
+
+
 
 /* Hero */
 .hero {
@@ -323,12 +319,11 @@ nav .wrapper {
 
 .product .addCart {
   position: absolute;
-  right: 0;
-  bottom: 0.6rem;
+  right: 1rem;
+  bottom: 1rem;
   background-color: #fff;
-  border-radius: 50%;
+  border-radius: 90%;
   padding: 1.3rem 1.6rem;
-  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   transition: all 300ms ease-in-out;
 }
 
@@ -341,11 +336,9 @@ nav .wrapper {
   position: absolute;
   right: 0;
   top: 30%;
-  transform: translate(80%, -50%);
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  transition: all 500ms ease-in-out;
 }
 
 .product .side-icons span {
@@ -362,9 +355,7 @@ nav .wrapper {
   color: #fff;
 }
 
-.product:hover .side-icons {
-  transform: translate(0%, -50%);
-}
+
 
 /* FOOTER */
 
