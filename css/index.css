@@ -286,7 +286,7 @@ nav .wrapper {
   opacity: 1;
 }
 
-/* PRODUCTS */
+/* PRODUTOS */
 .section .product-layout {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
